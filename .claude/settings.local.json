@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where flutter *)",
+      "Bash(flutter --version)",
+      "Bash(awk 'NR==1087,NR==1290{print NR\": \"$0}' lib/screens/wishlist_screen.dart)",
+      "Bash(awk -F'' '{o=gsub\\(/\\\\\\(/,\"\\(\"\\);c=gsub\\(/\\\\\\)/,\"\\)\"\\); print}')",
+      "Bash(python3 -)",
+      "Bash(flutter pub *)",
+      "Bash(flutter analyze *)",
+      "Bash(flutter devices *)",
+      "Bash(flutter run *)",
+      "Bash(echo \"started in background, pid $!\")",
+      "Bash(netstat -ano)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8765)",
+      "Bash(flutter build *)",
+      "Bash(dart serve_preview.dart)",
+      "Bash(sed -i 's/8765/8766/' serve_preview.dart)",
+      "Bash(tasklist //FI \"WINDOWTITLE eq dart*\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8766)",
+      "Bash(taskkill //F //PID 1752)",
+      "Bash(taskkill //F //IM dart.exe)",
+      "Bash(grep -n \"Future<FunctionResponse> invoke\" -A 15 \"C:/Users/alexa/AppData/Local/Pub/Cache/hosted/pub.dev/functions_client-2.5.0/lib/src/functions_client.dart\" 2>/dev/null | head -40 *)",
+      "Bash(flutter test *)",
+      "Bash(mkdir -p \"C:/AppPos/app_pos/.claude\")",
+      "Bash(rmdir \"C:/Local/proyec/dates/.claude\")",
+      "Bash(rm -f \"C:/AppPos/app_pos/.claude/launch.json\")",
+      "Bash(rmdir \"C:/AppPos/app_pos/.claude\")",
+      "Bash(dart run *)",
+      "Bash(dart pub *)",
+      "Bash(find \"/c/Users/alexa/AppData/Local/Pub/Cache/hosted/pub.dev\" -maxdepth 1 -iname \"supabase_flutter-*\" 2>/dev/null)",
+      "Bash(dart fix *)"
+    ]
+  }
+}
