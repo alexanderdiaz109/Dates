@@ -1,4 +1,4 @@
-# dates
+# Dates
 
 A new Flutter project.
 
